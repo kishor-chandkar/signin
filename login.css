@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: aqua;
+}
+.pi,a{
+    display: block;
+}
+/* how to center a division (below 4 lines)*/
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: coral;
+    width: 20%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+form h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+}
+
+form label{
+    color: brown;
+}
+
+form .input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 14);
+    color: darkred;
+}
+#cancel{
+    background-color: rgb(255, 123, 0);
+}
+
+form a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-user-secret{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+}
+#user{
+    position: relative;
+}
